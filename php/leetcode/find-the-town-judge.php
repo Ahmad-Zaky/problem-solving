@@ -38,6 +38,8 @@ function findJudge($trust, $people)
         : -1;
 }
 
+var_dump(findJudge([[1,3],[2,3]], 3));
+die();
 // Test your test cases
 require_once __DIR__ . "/../test.php";
 
